@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp">
+        <ImageView
+            android:id="@+id/chat_imageview_headportarit_left"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/emoji"
+            android:background="@drawable/shape_demo1"
+            android:layout_gravity="center"/>
+        <com.example.a33626.endhomework2.view.BubbleTextLayout
+            android:id="@+id/chat_buddlelayout_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            app:direction="left"
+            app:background_color="@color/colorChatContent"
+            android:shadowColor="@color/colorChatContentShadow"
+            app:radius="5dp"
+            app:shadow_size="5dp"
+            app:offset="0dp">
+            <Button
+                android:id="@+id/chat_button_share_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Location share"
+                android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/chat_imageview_content_left"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/chat_textview_content_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:maxEms="10"
+                android:visibility="gone"/>
+        </com.example.a33626.endhomework2.view.BubbleTextLayout>
+    </LinearLayout>
+</LinearLayout>

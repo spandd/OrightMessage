@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorMainTheme">#FED303</color>
+    <color name="colorMainBackground">#FFFFFF</color>
+    <color name="colorLoginBackground">#C04758</color>
+    <color name="colorRegisterBackground">#62A9C7</color>
+    <color name="colorFontBlack">#333333</color>
+    <color name="colorGainsboro">#DCDCDC</color>
+    <color name="colorChatContent">#EFF0F2</color>
+    <color name="colorChatContentShadow">#999999</color>
+    <color name="colorChatEmojiBackground">#EBECEF</color>
+</resources>

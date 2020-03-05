@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/chat_imageview_headportarit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="20dp">
+        <com.example.a33626.endhomework2.view.BubbleTextLayout
+            android:id="@+id/chat_buddlelayout_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:shadowColor="@color/colorChatContentShadow"
+            android:textColor="#000000"
+            app:background_color="@color/colorChatContent"
+            app:direction="right"
+            app:offset="0dp"
+            app:radius="5dp"
+            app:shadow_size="5dp">
+            <Button
+                android:id="@+id/chat_button_share_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:text="Location share"
+                android:visibility="gone"/>
+            <ImageView
+                android:id="@+id/chat_imageview_content_right"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:visibility="gone"/>
+            <TextView
+                android:id="@+id/chat_textview_content_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:maxEms="10"
+                android:visibility="gone"/>
+        </com.example.a33626.endhomework2.view.BubbleTextLayout>
+
+        <ImageView
+            android:id="@+id/chat_imageview_headportarit_right"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:background="@drawable/shape_demo1"
+            android:src="@drawable/emoji" />
+    </LinearLayout>
+</LinearLayout>

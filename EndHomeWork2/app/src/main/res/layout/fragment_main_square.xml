@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.MainSquareFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="Square"
+        android:textSize="50dp"
+        android:textColor="@color/colorFontBlack"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/armd"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.45"
+        android:gravity="center">
+        <Button
+            android:id="@+id/square_button_zone"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/shape_corner_all_button_square_menu"
+            android:text="Zone"/>
+
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.4"
+        android:gravity="center"
+        android:padding="10dp">
+        <Button
+            android:id="@+id/square_button_shake"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/shape_corner_all_button_square_menu_small"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:text="Shake™"/>
+        <Button
+            android:id="@+id/square_button_setting"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/shape_corner_all_button_square_menu_small"
+            android:layout_marginLeft="30dp"
+            android:text="Setting"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15">
+    </LinearLayout>
+</LinearLayout>

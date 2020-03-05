@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="default_emoji_key">
+        <item>"[e2]"</item>
+        <item>"[e3]"</item>
+        <item>"[e4]"</item>
+        <item>"[e5]"</item>
+        <item>"[e6]"</item>
+        <item>"[e7]"</item>
+        <item>"[e8]"</item>
+        <item>"[e9]"</item>
+        <item>"[e10]"</item>
+        <item>"[e11]"</item>
+        <item>"[e12]"</item>
+        <item>"[e13]"</item>
+        <item>"[e14]"</item>
+        <item>"[e15]"</item>
+        <item>"[e16]"</item>
+        <item>"[e17]"</item>
+        <item>"[e18]"</item>
+        <item>"[e19]"</item>
+        <item>"[e20]"</item>
+        <item>"[e21]"</item>
+        <item>"[e22]"</item>
+        <item>"[e23]"</item>
+        <item>"[e24]"</item>
+    </string-array>
+</resources>

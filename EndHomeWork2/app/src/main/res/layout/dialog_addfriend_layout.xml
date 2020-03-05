@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_corner_all_linearlayout_dialog"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="AddFriend"
+        android:textSize="50dp"
+        android:textColor="@color/colorFontBlack"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/armd"/>
+    <EditText
+        android:id="@+id/addfriend_edittext_search"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/shape_corner_all_edittext_search"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:textSize="15dp"
+        android:maxLength="10"
+        android:drawableLeft="@drawable/edittext_search"
+        android:singleLine="true"
+        android:textCursorDrawable="@null"
+        android:drawablePadding="5dp"
+        android:inputType="number"
+        android:hint="search friend"/>
+
+    <LinearLayout
+        android:id="@+id/addfriend_linearlayout_searchinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/shape_corner_all_linearlayout_addfriend"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/addfriend_imageview_headportrait"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#ffffff" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="ID:" />
+
+            <TextView
+                android:id="@+id/addfriend_textview_userid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="XXXXXX" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UserName:" />
+
+            <TextView
+                android:id="@+id/addfriend_textview_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="XXXXXX" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Birthday:" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="month:" />
+
+            <TextView
+                android:id="@+id/addfriend_textview_birthdaymonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="XX" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="day:" />
+
+            <TextView
+                android:id="@+id/addfriend_textview_birthdayday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="XX" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/addfriend_button_add"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape_corner_all_button"
+            android:text="Add" />
+
+    </LinearLayout>
+</LinearLayout>
